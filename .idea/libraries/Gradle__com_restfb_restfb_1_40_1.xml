@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.restfb:restfb:1.40.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.restfb/restfb/1.40.1/3ee6380abf7217bdb0ce0f14ece3b5bb5cb5cfce/restfb-1.40.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.restfb/restfb/1.40.1/3faff4c8956d925d28f49e2ed09eddca5dba61c0/restfb-1.40.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

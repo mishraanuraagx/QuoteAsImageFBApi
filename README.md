@@ -6,6 +6,7 @@ This is an API to produce randomised Quotes into Image and post it on Facebook T
 
 While logged in to a Facebook account, navigate to https://developers.facebook.com/tools/explorer/.
 Click on the drop down menu named 'Get Token' and select 'Get User Access Token'.
+A dialog Box will open up, select all check boxes for now then click 'Get Access Token' button.
 Once you do it, the field ahead of the drop-down menu gets updated with your new API key.
 Copy and paste this String in Application.java class as value for 'accessToken'.
 

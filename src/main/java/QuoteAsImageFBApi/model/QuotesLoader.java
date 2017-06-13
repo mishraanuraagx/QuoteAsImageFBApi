@@ -1,4 +1,4 @@
-package QuoteAsImageFBApi.Loader;
+package QuoteAsImageFBApi.model;
 
 
 public class QuotesLoader {

@@ -9,7 +9,7 @@ import javax.swing.*;
 
 public class LabelRenderTest {
 
-  public static void main(String[] args) {
+  public static void run() {
     SwingUtilities.invokeLater( new Runnable() {
       public void run() {
 
@@ -32,7 +32,7 @@ public class LabelRenderTest {
             20f,
             20f,
             Color.red,
-            1180f,
+            2000f,
             780f,
             Color.orange);
         imageGraphics.setPaint(gp);
@@ -67,7 +67,7 @@ public class LabelRenderTest {
         g.setColor(Color.black);
         textLabel.paint(g);
         try {
-          ImageIO.write(bi, "png", new File("assets/images/test.png"));
+          ImageIO.write(bi, "png", new File("assets/images/test2.png"));
           System.out.println("done bi");
         } catch (IOException e) {
           e.printStackTrace();

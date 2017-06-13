@@ -1,13 +1,14 @@
 package QuoteAsImageFBApi;
 
 
-
-import QuoteAsImageFBApi.model.LabelRenderTest;
+import QuoteAsImageFBApi.model.PostOnFB;
 import QuoteAsImageFBApi.model.QuoteToImage;
+import QuoteAsImageFBApi.model.QuotesLoader;
 
 public class Application {
   public static void main(String[] args) {
-    QuoteToImage.run("");
-//    LabelRenderTest.run();
+    String quote = QuotesLoader.randomisedQuote();
+    QuoteToImage.run(quote);
+    PostOnFB.run(quote);
   }
 }

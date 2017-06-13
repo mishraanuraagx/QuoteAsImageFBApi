@@ -13,7 +13,7 @@ apply plugin: 'java'
 apply plugin: 'org.springframework.boot'
 
 jar {
-    baseName = 'DesktopReady'
+    baseName = 'HerokuReady'
     version =  '0.1.0'
 }
 

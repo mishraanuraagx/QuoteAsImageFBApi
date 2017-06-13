@@ -12,15 +12,18 @@ import javax.swing.JLabel;
 
 
 public class QuoteToImage {
-  public static void run(String quote) {
+  public static boolean run(String quote) {
+    boolean valid = true;
     //TODO mishra: If small String is received via HTTP request String replace with with some default or randomised again
-    if (quote.length() < 5);
+    if (quote.length() < 5) {
+      ;
+    }
     final BufferedImage image;
 
     String text = "<html><body style='width: 1080px; padding: 5px;'>"
         + "<h1 style=\"font-size:40px;text-align:center;text-shadow: 2px 2px;word-spacing: normal;margin: 50px;"
         + "font-family: Comic Sans MS;\">"
-        + "\""+quote+"\""
+        + "\"" + quote + "\""
         + "</h1><body></html>";
     JLabel textField = new JLabel(text);
     textField.setSize(textField.getPreferredSize());
@@ -31,8 +34,8 @@ public class QuoteToImage {
     BufferedImage bi = new BufferedImage(x, y, BufferedImage.TYPE_INT_ARGB);
     Graphics2D g = bi.createGraphics();
 
-    GradientPaint redtowhite = new GradientPaint(x, y, Color.red, 200, y,Color.blue);
-    g.setPaint(redtowhite);
+    GradientPaint redToWhite = new GradientPaint(x, y, Color.red, 200, y, Color.blue);
+    g.setPaint(redToWhite);
     g.fillRoundRect(0, 0, x, y, 15, 10);
     g.setColor(new Color(254, 249, 255, 200));
     g.fillRoundRect(0, 0, x, y, 15, 10);
@@ -43,8 +46,9 @@ public class QuoteToImage {
       System.out.println("Quote converted to text");
     } catch (IOException e) {
       e.printStackTrace();
+      valid = false;
     }
 
-
+    return valid;
   }
 }

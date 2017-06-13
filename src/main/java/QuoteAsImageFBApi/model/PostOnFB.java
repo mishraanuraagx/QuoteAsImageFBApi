@@ -13,9 +13,13 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 public class PostOnFB {
-  public static void run(String quote) {
-//    String accessToken = "AddYourAccessTokenHere";
-    String accessToken = "EAACEdEose0cBAK3Whyz4ou8bXwv8AQDVZAQJPclyCXs4w2gm3pNQXPpfRAaJdVAtQZBUuCjySEYvAQPgn08HO9dPdFOwdA1yvJlO7BQ9e6T8sljkilnvM4hSLts9nDZCnriZAfbu6Gun5pCZCcErySylQmNEWXft6MAYPoviNx0TZBshr2hOdh6XZADtJkUT68ZD";
+  public static boolean run(String quote, String token) {
+
+    String accessToken = token;
+    Boolean valid = true;
+    if(token.length() == 0){
+      return false;
+   }
     FacebookClient fbClient = new DefaultFacebookClient(accessToken);
 
     try {
@@ -25,10 +29,12 @@ public class PostOnFB {
       System.out.println("Posted Image");
     } catch (FileNotFoundException e) {
       e.printStackTrace();
+      valid = false;
     }
 
     User me = fbClient.fetchObject("me", User.class);
     System.out.println(me.getName());
     System.out.println(me.getBirthday());
+    return valid;
   }
 }

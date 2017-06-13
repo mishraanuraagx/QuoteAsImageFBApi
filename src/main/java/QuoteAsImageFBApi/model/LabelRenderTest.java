@@ -8,7 +8,7 @@ import javax.imageio.ImageIO;
 import javax.swing.*;
 
 public class LabelRenderTest {
-
+  //TODO mishra: Delete this class later, its a test class to test out features
   public static void run() {
     SwingUtilities.invokeLater( new Runnable() {
       public void run() {

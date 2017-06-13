@@ -6,7 +6,6 @@ import com.restfb.DefaultFacebookClient;
 import com.restfb.FacebookClient;
 import com.restfb.Parameter;
 import com.restfb.types.FacebookType;
-import com.restfb.types.User;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,8 +13,11 @@ import java.io.FileNotFoundException;
 
 public class PostOnFB {
   public static boolean run(String quote, String token) {
+    // Post image named 'test.png' from local directory, this image is produced by QuoteToImage class
+    // Also adds a Message with the pic, which quote itself
 
     String accessToken = token;
+    //Checks if token is null or not
     Boolean valid = true;
     if(token.length() == 0){
       return false;
@@ -30,15 +32,12 @@ public class PostOnFB {
     } catch (FileNotFoundException e) {
       valid = false;
       return valid;
-//      e.printStackTrace();
     } catch (Exception e){
+      //Use to handle exception when token is invalid
       System.out.println("wrong Token");
       return false;
     }
 
-    User me = fbClient.fetchObject("me", User.class);
-    System.out.println(me.getName());
-    System.out.println(me.getBirthday());
     return valid;
   }
 }

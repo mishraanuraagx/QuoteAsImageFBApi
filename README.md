@@ -1,6 +1,8 @@
 ## QuoteAsImageFBApi
 
 This is an API to produce randomised Quotes into Image and post it on Facebook Timeline of the User with Access Token.
+Deployed on Heroku.
+Simply read 'Heroku Deployed' and 'Getting Your API Keys' section.
 
 ## Getting Your API Keys
 
@@ -25,6 +27,7 @@ Either execute main() method directly, this will start a localhost with port 808
 Open browser and go to http://localhost:8080/
 
 ## Heroku Deployed
+
  While logged in on a Facebook account, go to https://quote-as-image-facebook-post.herokuapp.com/ to use browser version.
  You need Access Token for second field, read Section: #Getting Your API Keys.
  for First Field use String length of above 10 for quote , also entering String 'random' will post some random Quote on Facebook timeline

@@ -13,11 +13,11 @@ import javax.swing.JLabel;
 
 public class QuoteToImage {
   public static boolean run(String quote) {
+    // Converts Quotes to image using BufferedImage, Graphics, and ImageIO
+    //JLabel is used to format the HTML tagged text to get nice wrapping and styled text
     boolean valid = true;
-    //TODO mishra: If small String is received via HTTP request String replace with with some default or randomised again
-    if (quote.length() < 5) {
-      ;
-    }
+    //TODO mishra: Handle if String is too small
+
     final BufferedImage image;
 
     String text = "<html><body style='width: 1080px; padding: 5px;'>"
@@ -34,9 +34,12 @@ public class QuoteToImage {
     BufferedImage bi = new BufferedImage(x, y, BufferedImage.TYPE_INT_ARGB);
     Graphics2D g = bi.createGraphics();
 
+    //Gives a gradient background
     GradientPaint redToWhite = new GradientPaint(x, y, Color.red, 200, y, Color.blue);
     g.setPaint(redToWhite);
     g.fillRoundRect(0, 0, x, y, 15, 10);
+
+    //Adds Another layer of White color with translucent effect
     g.setColor(new Color(254, 249, 255, 200));
     g.fillRoundRect(0, 0, x, y, 15, 10);
     textField.paint(g);

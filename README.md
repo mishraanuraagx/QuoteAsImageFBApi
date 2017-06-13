@@ -8,7 +8,7 @@ Simply read 'Heroku Deployed' and 'Getting Your API Keys' section.
 
 While logged in to a Facebook account, navigate to https://developers.facebook.com/tools/explorer/.
 Click on the drop down menu named 'Get Token' and select 'Get User Access Token'.
-A dialog Box will open up, select all check boxes for now then click 'Get Access Token' button.
+A dialog Box will open up, select 'publish_actions' check boxes for now then click 'Get Access Token' button.
 Once you do it, the field ahead of the drop-down menu gets updated with your new API key.
 Copy and paste this String in Application.java class as value for 'accessToken'.
 

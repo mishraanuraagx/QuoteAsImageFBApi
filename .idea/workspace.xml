@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93a616b-8f0b-416c-9666-0e42e7ebf9e2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/test.png" afterPath="$PROJECT_DIR$/assets/images/test.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/QuoteAsImageFBApi/Application.class" afterPath="$PROJECT_DIR$/build/classes/main/QuoteAsImageFBApi/Application.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/QuoteAsImageFBApi/model/PostOnFB.class" afterPath="$PROJECT_DIR$/build/classes/main/QuoteAsImageFBApi/model/PostOnFB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/DesktopReady-0.1.0.jar" afterPath="$PROJECT_DIR$/build/libs/DesktopReady-0.1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/HerokuReady-0.1.0.jar" afterPath="$PROJECT_DIR$/build/libs/HerokuReady-0.1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/HerokuReady-0.1.0.jar.original" afterPath="$PROJECT_DIR$/build/libs/HerokuReady-0.1.0.jar.original" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/QuoteAsImageFBApi/model/QuoteToImage.class" afterPath="$PROJECT_DIR$/build/classes/main/QuoteAsImageFBApi/model/QuoteToImage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/Application.java" afterPath="$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/model/PostOnFB.java" afterPath="$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/model/PostOnFB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/model/QuoteToImage.java" afterPath="$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/model/QuoteToImage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/model/QuotesLoader.java" afterPath="$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/model/QuotesLoader.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -126,7 +117,30 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PostOnFB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/model/PostOnFB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -558,9 +572,9 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/model/PostOnFB.java" />
         <option value="$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/model/QuotesLoader.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/model/QuoteToImage.java" />
         <option value="$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/Application.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1170,7 +1184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497363175338</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="More Readable classes&#10;README updated">
+      <created>1497364931086</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1497364931086</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1255,7 +1276,8 @@
     <MESSAGE value="README updated" />
     <MESSAGE value="README formatting issue fixed" />
     <MESSAGE value="Wrong Access token entered error fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrong Access token entered error fixed" />
+    <MESSAGE value="More Readable classes&#10;README updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="More Readable classes&#10;README updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1438,14 +1460,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1470,16 +1484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/model/PostOnFB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/model/QuoteToImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1487,6 +1491,24 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QuoteAsImageFBApi/model/PostOnFB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>

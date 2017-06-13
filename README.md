@@ -18,13 +18,13 @@ QuoteToImage : take String and convert that to image. Conversion is done with so
 
 PostOnFB : Takes 2 String parameter, first one is quote or any message you wish to display with your image, second paramter is for accessToken
 
-##How To Run
+## How To Run
 
 Simply download or clone on your PC and run this on any IDE(intelliJ preferred).
 Either execute main() method directly, this will start a localhost with port 8080.
 Open browser and go to http://localhost:8080/
 
-##Heroku Deployed
+## Heroku Deployed
  While logged in on a Facebook account, go to https://quote-as-image-facebook-post.herokuapp.com/ to use browser version.
  You need Access Token for second field, read Section: #Getting Your API Keys.
  for First Field use String length of above 10 for quote , also entering String 'random' will post some random Quote on Facebook timeline

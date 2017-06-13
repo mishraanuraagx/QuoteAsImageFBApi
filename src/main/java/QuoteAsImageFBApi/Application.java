@@ -20,16 +20,18 @@ import QuoteAsImageFBApi.model.QuotesLoader;
 @SpringBootApplication
 public class Application {
   public static void main(String[] args) {
-    SpringApplication.run(Application.class,args);
+    SpringApplication.run(Application.class, args);
     //TODO mishra: output font style size family
     //TODO mishra: add cool background theme pics to quotes
-    //TODO mishra: create Heroku Hosted API for developers to directly use your API with their own quotes
 
     String accessToken = "Add Your Access Token Here";
-//    String quote = QuotesLoader.randomisedQuote();
-//    QuoteToImage.run(quote);
-//    PostOnFB.run(quote, accessToken);
 
 
+  }
+
+  public static void run(String accessToken) {
+    String quote = QuotesLoader.randomisedQuote();
+    QuoteToImage.run(quote);
+    PostOnFB.run(quote, accessToken);
   }
 }

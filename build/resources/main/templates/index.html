@@ -3,24 +3,105 @@
 <head>
     <meta charset="UTF-8"/>
     <meta description="viewport" content="width=device-width, initial-scale=1"/>
+    <style>
+div {
+    font: 95% Arial,Helvetica,sans-serif;
+max-width: 400px;
+padding: 16px;
+background: #f7f7f7;
+color: #3e3e3e;
+box-sizing: border-box;
+border: 1px solid #ccc;
+}
+
+h1 {
+    padding: 20px 0;
+    background: #43d1af;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+    font: 140% Arial,Helvetica,sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font: 95% Arial,Helvetica,sans-serif;
+    max-width: 400px;
+    padding: 16px;
+    background: #f7f7f7;
+    color: #3e3e3e;
+}
+
+.style-1 {
+margin: 0 0 10px;
+font: 95% Arial,Helvetica,sans-serif;
+color: #3e3e3e;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.button {
+background: #2ebc99;
+-moz-box-sizing: border-box;
+width: 100%;
+padding: 3%;
+border-bottom: 2px solid #30c29e;
+border-top-style: none;
+border-right-style: none;
+border-left-style: none;
+color: #fff;
+font-size: 14px;
+}
+
+input {
+width: 100%;
+background: #fff;
+margin-bottom: 4%;
+border: 1px solid #ccc;
+padding: 3%;
+color: #555;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 14px;
+margin: 0 auto;
+line-height: inherit;
+}
+
+.style-2 {
+font-family: "Noto Serif",sans-serif;
+font-size: 1.2em;
+line-height: 1.2em;
+color: #3e3e3e;
+}
+
+    </style>
 
 </head>
-<body style='width: 500px; padding: 5px;'>
-<p style="font-size:20px;word-spacing: normal;margin: 50px;font-family: Comic Sans MS;">
+<body>
+
+<div class="style-1">
+
+    <h1> --- Facebook API ---</h1>
+    <h1>Post: Quote as Image </h1>
     <form action="/" method="post">
-        <h1>Quote:
-    <input type="text" name="quote" value="try entering :'random'"/></h1>
+        <h2>Quote:
+            <input type="text" name="quote" placeholder="try entering :'random'"/></h2>
 
         <br/>
-       <h1>Access Token:
-           <input type="text" name="accessToken" value="accessToken"/></h1>
+        <h2>Access Token:
+            <input type="text" name="accessToken" placeholder="Access Token"/></h2>
 
         <br/><br/>
-        <input type="submit" value="Submit"/>
+        <input type="submit" value="Submit" class="button"/>
     </form>
+</div>
+<div>
+<p class="style-2">This is an Open Source API. Read Documentation on
+    <a href="https://github.com/mishraanuraagx/QuoteAsImageFBApi">Github</a>.</p>
+<p class="style-2">Used to post quotes as image on Timeline</p>
 
-    <p>This is an Open Source API. Read Documentation on
-        <a href="https://github.com/mishraanuraagx/QuoteAsImageFBApi">Github</a>.</p>
-    <p>Used to post quotes as image on Timeline</p>
-
-</p></body></html>;
+</div>
+</body>
+</html>

@@ -42,7 +42,7 @@ public class QuotesLoader {
 
   public static String randomisedQuote() {
 
-//    return quotes[(int) (Math.random() * quotes.length)];
-    return quotes[quotes.length-1];
+    return quotes[(int) (Math.random() * quotes.length)];
+
   }
 }

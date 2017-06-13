@@ -13,12 +13,12 @@ import QuoteAsImageFBApi.model.QuotesLoader;
 @ComponentScan
 @SpringBootApplication
 public class Application {
+  public static String accessToken = "Add Your Access Token Here";
   public static void main(String[] args) {
     SpringApplication.run(Application.class, args);
     //TODO mishra: add cool background theme pics to quotes
 
-    String accessToken = "Add Your Access Token Here";
-//    run(accessToken);
+
 
   }
 

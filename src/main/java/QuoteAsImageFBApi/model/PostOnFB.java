@@ -28,8 +28,12 @@ public class PostOnFB {
           BinaryAttachment.with("test.png",fis), Parameter.with("message",quote));
       System.out.println("Posted Image");
     } catch (FileNotFoundException e) {
-      e.printStackTrace();
       valid = false;
+      return valid;
+//      e.printStackTrace();
+    } catch (Exception e){
+      System.out.println("wrong Token");
+      return false;
     }
 
     User me = fbClient.fetchObject("me", User.class);
